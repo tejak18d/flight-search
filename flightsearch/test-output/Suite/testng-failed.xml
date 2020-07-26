@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Safari"/>
+  <test name="SafariTest(failed)" parallel="tests">
+    <parameter name="browser" value="Safari"/>
+    <classes>
+      <class name="org.cucumber.stepdefs.Steps">
+        <methods>
+          <include name="click_on_one_way_radio_button"/>
+          <include name="user_launches_browser"/>
+          <include name="user_launches_browser"/>
+          <include name="user_clicks_on_select_link"/>
+          <include name="user_enters_start_date"/>
+          <include name="close_browser"/>
+          <include name="close_browser"/>
+          <include name="user_enters_source_as_and_destination_as"/>
+          <include name="click_on_search_flights"/>
+          <include name="user_opens_URL" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.cucumber.stepdefs.Steps -->
+    </classes>
+  </test> <!-- SafariTest(failed) -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="org.cucumber.stepdefs.Steps">
+        <methods>
+          <include name="click_on_one_way_radio_button"/>
+          <include name="user_launches_browser"/>
+          <include name="user_launches_browser"/>
+          <include name="user_clicks_on_select_link"/>
+          <include name="user_enters_start_date"/>
+          <include name="close_browser"/>
+          <include name="close_browser"/>
+          <include name="user_enters_source_as_and_destination_as"/>
+          <include name="click_on_search_flights"/>
+          <include name="user_opens_URL" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.cucumber.stepdefs.Steps -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

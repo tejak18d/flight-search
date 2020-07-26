@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="33135" started-at="2020-07-26T02:29:32Z" finished-at="2020-07-26T02:30:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Features.TestRun@5702b3b1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.cucumber.runtest.TestRun@192b07fd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="33135" started-at="2020-07-26T02:29:32Z" finished-at="2020-07-26T02:30:05Z">
+      <class name="Features.TestRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Features.TestRun@5702b3b1]" name="setUpClass" is-config="true" duration-ms="368" started-at="2020-07-25T21:29:32Z" finished-at="2020-07-25T21:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Features.TestRun@5702b3b1]" name="runScenario" duration-ms="32734" started-at="2020-07-25T21:29:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-25T21:30:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful flight search and itinerary selection"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Features.TestRun@5702b3b1]" name="runScenario" duration-ms="25987" started-at="2020-07-25T21:29:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-25T21:29:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful flight search and itinerary selection"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Features.TestRun@5702b3b1]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-07-25T21:30:05Z" finished-at="2020-07-25T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Features.TestRun -->
+      <class name="org.cucumber.runtest.TestRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.cucumber.runtest.TestRun@192b07fd]" name="setUpClass" is-config="true" duration-ms="7" started-at="2020-07-25T21:30:05Z" finished-at="2020-07-25T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.cucumber.runtest.TestRun@192b07fd]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-07-25T21:30:05Z" finished-at="2020-07-25T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.cucumber.runtest.TestRun -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
