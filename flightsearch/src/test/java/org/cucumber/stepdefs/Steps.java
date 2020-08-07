@@ -35,7 +35,6 @@ public class Steps {
 		}
 
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		fsp = new FlightSearchPage(driver);
 	}
 
@@ -45,6 +44,8 @@ public class Steps {
 	public void user_opens_URL(String url) {
 
 		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(100,TimeUnit.SECONDS);
 
 	}
 
@@ -75,19 +76,19 @@ public class Steps {
 
 	@Test
 	@Then("Page should display fares")
-	public void page_should_display_fares() throws InterruptedException {
+	public void page_should_display_fares() {
           fsp.verifyFares();
 	}
 
 	@Test
 	@When("User clicks on select link")
-	public void user_clicks_on_select_link() throws InterruptedException {
+	public void user_clicks_on_select_link() {
 		fsp.selectFlight();
 	}
 
 	@Test
 	@Then("Page should display cheapest and fastest itinerary")
-	public void page_should_display_cheapest_and_fastest_itinerary() throws InterruptedException {
+	public void page_should_display_cheapest_and_fastest_itinerary() {
            fsp.verifyItinerary();
 	}
 

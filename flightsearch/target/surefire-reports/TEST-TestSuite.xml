@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="TestSuite" time="58.723" errors="0" skipped="0">
+<testsuite tests="2" failures="2" name="TestSuite" time="71.168" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
@@ -26,13 +26,13 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/tejakurucheti/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4274025725773743577.tmp"/>
+    <property name="classworlds.conf" value="/Users/tejakurucheti/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf483310544539043648.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/tejakurucheti/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.14.1"/>
+    <property name="os.version" value="10.15.6"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/tejakurucheti"/>
     <property name="user.timezone" value="America/Chicago"/>
@@ -40,7 +40,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="tejakurucheti"/>
-    <property name="java.class.path" value="/Users/tejakurucheti/eclipse/java-neon/Eclipse.app/Contents/Eclipse/../../../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/Users/tejakurucheti/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735/jars/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
@@ -62,6 +62,3107 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Features.TestRun" name="runScenario" time="25.99"/>
-  <testcase classname="Features.TestRun" name="runScenario" time="32.733"/>
+  <testcase classname="Features.TestRun" name="runScenario" time="21.597">
+    <failure message="
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 13.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19G73, safari:platformVersion: 10.15.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: BFCC4697-B8A2-46F1-8446-88BFEB702957
+*** Element info: {Using=class name, value=currency}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 13.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19G73, safari:platformVersion: 10.15.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: BFCC4697-B8A2-46F1-8446-88BFEB702957
+*** Element info: {Using=class name, value=currency}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:431)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+	at ✽.Page should display fares(classpath:Features/scenarios.feature:22)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@63d4e2ba
+[INFO] Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+[INFO] ====&gt; http://tiny.cc/wdm-survey &lt;====
+[DEBUG] Resolution chrome=84 in cache (valid until 14:07:02 07/08/2020 CDT)
+[INFO] Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+[DEBUG] Driver chromedriver 84.0.4147.30 found in cache
+[INFO] Exporting webdriver.chrome.driver as /Users/tejakurucheti/.m2/repository/webdriver/chromedriver/mac64/84.0.4147.30/chromedriver
+[DEBUG] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] -Dio.netty.eventLoopThreads: 8
+[DEBUG] -Dio.netty.noKeySetOptimization: false
+[DEBUG] -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] -Dio.netty.allocator.pageSize: 8192
+[DEBUG] -Dio.netty.allocator.maxOrder: 11
+[DEBUG] -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] -Dio.netty.allocator.type: pooled
+[DEBUG] -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] -Dio.netty.processId: 9034 (auto-detected)
+[DEBUG] -Djava.net.preferIPv4Stack: false
+[DEBUG] -Djava.net.preferIPv6Addresses: false
+[DEBUG] Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[DEBUG] Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+[DEBUG] -Dio.netty.machineId: 98:01:a7:ff:fe:d0:88:33 (auto-detected)
+[DEBUG] -Dio.netty.buffer.checkAccessible: true
+[DEBUG] -Dio.netty.buffer.checkBounds: true
+[DEBUG] Using new Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;/session&apos;
+[DEBUG] Using new Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;/session&apos;
+[DEBUG] -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] -Dio.netty.recycler.ratio: 8
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 192
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:26 GMT
+Accept-Ranges: bytes
+Content-Length: 519
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/window/maximize&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/window/maximize&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/window/maximize HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:26 GMT
+Accept-Ranges: bytes
+Content-Length: 50
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 727
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/url&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/url&apos;
+[DEBUG] Using new Channel &apos;[id: 0x713ad4e8, L:/127.0.0.1:50532 - R:localhost/127.0.0.1:50522]&apos; for &apos;GET&apos; to &apos;/json/version&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+host: localhost:50522
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 424
+Content-Type: application/json; charset=UTF-8
+
+[DEBUG] -Dio.netty.initialSeedUniquifier: 0x43cfa977eb396e52
+[DEBUG] Using new Channel &apos;[id: 0xaede6b77, L:/127.0.0.1:50533 - R:localhost/127.0.0.1:50522]&apos; for &apos;GET&apos; to &apos;/devtools/browser/f1f93811-7e71-4b55-8e4d-a164f381247f&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/f1f93811-7e71-4b55-8e4d-a164f381247f HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: FILn7+qjlG1k1aCXwjEp2w==
+sec-websocket-version: 13
+origin: http://localhost:50522
+host: localhost:50522
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: k5oniWL9XzwRZUxJRzh43u8h2Zs=
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/window/maximize&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/window/maximize&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/window/maximize HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/url&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/url&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/url HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/timeouts&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/timeouts&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/timeouts HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/timeouts&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/timeouts&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/timeouts HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 24
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/url HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:31 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/timeouts&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/timeouts&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/timeouts HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:31 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/timeouts&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/timeouts&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/timeouts HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 24
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:31 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 77
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:31 GMT
+Accept-Ranges: bytes
+Content-Length: 93
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-24BA6EC0-3C6E-4265-B7F6-78F2D24C612C/click&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-24BA6EC0-3C6E-4265-B7F6-78F2D24C612C/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 77
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/aa1c411d-0c66-441a-a269-eb5851039f55/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/aa1c411d-0c66-441a-a269-eb5851039f55/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/aa1c411d-0c66-441a-a269-eb5851039f55/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/78609c0b-c528-4870-8f38-41e5cf6f3318/value&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/78609c0b-c528-4870-8f38-41e5cf6f3318/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-24BA6EC0-3C6E-4265-B7F6-78F2D24C612C/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 55
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:33 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:33 GMT
+Accept-Ranges: bytes
+Content-Length: 93
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-02F780C2-CDC4-40FB-BD1D-4B177CF9253D/value&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-02F780C2-CDC4-40FB-BD1D-4B177CF9253D/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/78609c0b-c528-4870-8f38-41e5cf6f3318/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 111
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/78609c0b-c528-4870-8f38-41e5cf6f3318/value&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/78609c0b-c528-4870-8f38-41e5cf6f3318/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-02F780C2-CDC4-40FB-BD1D-4B177CF9253D/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 116
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:34 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/78609c0b-c528-4870-8f38-41e5cf6f3318/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:35 GMT
+Accept-Ranges: bytes
+Content-Length: 93
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-02F780C2-CDC4-40FB-BD1D-4B177CF9253D/value&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-02F780C2-CDC4-40FB-BD1D-4B177CF9253D/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 48
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/48ebbf6f-24d7-477a-8f4f-5c2656a47412/value&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/48ebbf6f-24d7-477a-8f4f-5c2656a47412/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-02F780C2-CDC4-40FB-BD1D-4B177CF9253D/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 100
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:36 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/48ebbf6f-24d7-477a-8f4f-5c2656a47412/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 171
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 48
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:36 GMT
+Accept-Ranges: bytes
+Content-Length: 93
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-89F973AB-15F0-4CED-BC08-FD827B7D9295/value&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-89F973AB-15F0-4CED-BC08-FD827B7D9295/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 48
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/48ebbf6f-24d7-477a-8f4f-5c2656a47412/value&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/48ebbf6f-24d7-477a-8f4f-5c2656a47412/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/48ebbf6f-24d7-477a-8f4f-5c2656a47412/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/baa4f020-a12a-472b-a33d-fa4e3286986c/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/baa4f020-a12a-472b-a33d-fa4e3286986c/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-89F973AB-15F0-4CED-BC08-FD827B7D9295/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 176
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:38 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 48
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:38 GMT
+Accept-Ranges: bytes
+Content-Length: 93
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-89F973AB-15F0-4CED-BC08-FD827B7D9295/value&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-89F973AB-15F0-4CED-BC08-FD827B7D9295/value&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/baa4f020-a12a-472b-a33d-fa4e3286986c/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 149
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/2b76e537-6111-4fac-94fc-9c115cabb2f0/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/2b76e537-6111-4fac-94fc-9c115cabb2f0/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-89F973AB-15F0-4CED-BC08-FD827B7D9295/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 100
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:38 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/2b76e537-6111-4fac-94fc-9c115cabb2f0/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/19dcc552-b1d1-4d0e-8dc6-5886ef817d72/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/19dcc552-b1d1-4d0e-8dc6-5886ef817d72/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:38 GMT
+Accept-Ranges: bytes
+Content-Length: 93
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-BF62718C-1459-4C4A-AF7D-76E7D9F016EA/click&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-BF62718C-1459-4C4A-AF7D-76E7D9F016EA/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-BF62718C-1459-4C4A-AF7D-76E7D9F016EA/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 55
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:39 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 149
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:39 GMT
+Accept-Ranges: bytes
+Content-Length: 93
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-0E58DF0A-4FC7-4AE6-AB47-8384E0285A4B/click&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-0E58DF0A-4FC7-4AE6-AB47-8384E0285A4B/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-0E58DF0A-4FC7-4AE6-AB47-8384E0285A4B/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 55
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:39 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:39 GMT
+Accept-Ranges: bytes
+Content-Length: 93
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-A1628D94-A001-418A-87EE-4E4C3E41C5BC/click&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-A1628D94-A001-418A-87EE-4E4C3E41C5BC/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element/node-A1628D94-A001-418A-87EE-4E4C3E41C5BC/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 55
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:39 GMT
+Accept-Ranges: bytes
+Content-Length: 14
+Cache-Control: no-cache
+Connection: keep-alive
+
+[DEBUG] Using pooled Channel &apos;[id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777]&apos; for &apos;POST&apos; to &apos;http://localhost:17777/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] Using open Channel [id: 0xb679799e, L:/127.0.0.1:50519 - R:localhost/127.0.0.1:17777] for POST &apos;/session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/19dcc552-b1d1-4d0e-8dc6-5886ef817d72/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/execute/sync&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/execute/sync&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/execute/sync HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 49163
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 15
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:11086 : 1
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/execute/sync&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/execute/sync&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/execute/sync HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 49163
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/execute/sync&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/execute/sync&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/execute/sync HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 49163
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/elements&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/elements&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/BFCC4697-B8A2-46F1-8446-88BFEB702957/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:17777
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 500 Internal Server Error
+Server: SafariDriver/1.0
+Content-Type: application/json; charset=utf-8
+Date: Fri, 07 Aug 2020 04:59:44 GMT
+Accept-Ranges: bytes
+Content-Length: 64
+Cache-Control: no-cache
+Connection: keep-alive
+
+</system-out>
+    <system-err>Aug 06, 2020 11:59:22 PM io.cucumber.testng.TestNGCucumberRunner &lt;init&gt;
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+SLF4J: The following loggers will not work because they were created
+SLF4J: during the default configuration phase of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
+SLF4J: org.asynchttpclient.DefaultAsyncHttpClient
+SLF4J: io.netty.util.internal.logging.InternalLoggerFactory
+SLF4J: io.netty.util.HashedWheelTimer
+SLF4J: io.netty.util.ResourceLeakDetectorFactory
+SLF4J: io.netty.util.internal.SystemPropertyUtil
+SLF4J: io.netty.util.ResourceLeakDetector
+SLF4J: io.netty.util.internal.PlatformDependent
+SLF4J: io.netty.util.internal.PlatformDependent0
+SLF4J: io.netty.util.internal.CleanerJava6
+SLF4J: org.asynchttpclient.netty.channel.ChannelManager
+SLF4J: io.netty.handler.ssl.JdkSslContext
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 11086
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 06, 2020 11:59:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 06, 2020 11:59:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Features.TestRun" name="runScenario" time="49.571">
+    <failure message="Cannot locate an element using xpath=//div[@class=&apos;col-xs-12 contract__trip trip-block&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class=&apos;col-xs-12 contract__trip trip-block&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)
+	at org.cucumber.tests.FlightSearchPage.verifyItinerary(FlightSearchPage.java:110)
+	at Features.Steps.page_should_display_cheapest_and_fastest_itinerary(Steps.java:93)
+	at ✽.Page should display cheapest and fastest itinerary(classpath:Features/scenarios.feature:12)
+</failure>
+    <system-out>[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/elements HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 130
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 3961
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/fe228002-e29b-44d5-9ac8-b6040b46ee5f/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/fe228002-e29b-44d5-9ac8-b6040b46ee5f/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/fe228002-e29b-44d5-9ac8-b6040b46ee5f/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/c79fddb5-3555-4447-be1b-19b04f366d30/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/c79fddb5-3555-4447-be1b-19b04f366d30/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/c79fddb5-3555-4447-be1b-19b04f366d30/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/c79fddb5-3555-4447-be1b-19b04f366d30/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/c79fddb5-3555-4447-be1b-19b04f366d30/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/c79fddb5-3555-4447-be1b-19b04f366d30/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/3f36eae0-4078-4e9e-b85b-a12202fcd0c1/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/3f36eae0-4078-4e9e-b85b-a12202fcd0c1/text&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/3f36eae0-4078-4e9e-b85b-a12202fcd0c1/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/160fabb7-e2a9-4b93-8103-9d460946781e/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/160fabb7-e2a9-4b93-8103-9d460946781e/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/160fabb7-e2a9-4b93-8103-9d460946781e/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/160fabb7-e2a9-4b93-8103-9d460946781e/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/160fabb7-e2a9-4b93-8103-9d460946781e/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/160fabb7-e2a9-4b93-8103-9d460946781e/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/8410fff2-c6ba-4d19-acd8-89df51e03f09/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/8410fff2-c6ba-4d19-acd8-89df51e03f09/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/8410fff2-c6ba-4d19-acd8-89df51e03f09/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/ef74c268-fb9d-474e-9e3d-15f36668643c/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/ef74c268-fb9d-474e-9e3d-15f36668643c/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/ef74c268-fb9d-474e-9e3d-15f36668643c/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/ef74c268-fb9d-474e-9e3d-15f36668643c/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/ef74c268-fb9d-474e-9e3d-15f36668643c/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/ef74c268-fb9d-474e-9e3d-15f36668643c/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/f2116a0b-4075-4d55-84ee-8a7f1aaf1b7d/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/f2116a0b-4075-4d55-84ee-8a7f1aaf1b7d/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/f2116a0b-4075-4d55-84ee-8a7f1aaf1b7d/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/62965802-e443-41b6-aa5e-b94625334537/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/62965802-e443-41b6-aa5e-b94625334537/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/62965802-e443-41b6-aa5e-b94625334537/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/62965802-e443-41b6-aa5e-b94625334537/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/62965802-e443-41b6-aa5e-b94625334537/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/62965802-e443-41b6-aa5e-b94625334537/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] Entry count for : http://localhost:11086 : 1
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/0d349ce3-1298-41fa-91cc-be2ca54feff1/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/0d349ce3-1298-41fa-91cc-be2ca54feff1/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/0d349ce3-1298-41fa-91cc-be2ca54feff1/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/5c90e833-211c-445f-b33c-0cd43e0fa3f3/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/5c90e833-211c-445f-b33c-0cd43e0fa3f3/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/5c90e833-211c-445f-b33c-0cd43e0fa3f3/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/5c90e833-211c-445f-b33c-0cd43e0fa3f3/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/5c90e833-211c-445f-b33c-0cd43e0fa3f3/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/5c90e833-211c-445f-b33c-0cd43e0fa3f3/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/5b02f0f7-1f46-49e1-ac03-eda48dba4eef/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/5b02f0f7-1f46-49e1-ac03-eda48dba4eef/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/5b02f0f7-1f46-49e1-ac03-eda48dba4eef/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/0b54a90c-f9fc-4ffa-aafb-56fb0c41b895/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/0b54a90c-f9fc-4ffa-aafb-56fb0c41b895/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/0b54a90c-f9fc-4ffa-aafb-56fb0c41b895/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/5b114469-59a6-4af1-9f94-fda716c63720/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/5b114469-59a6-4af1-9f94-fda716c63720/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/5b114469-59a6-4af1-9f94-fda716c63720/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/293f96fc-3ab6-4d94-a655-16b14e90e534/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/293f96fc-3ab6-4d94-a655-16b14e90e534/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/293f96fc-3ab6-4d94-a655-16b14e90e534/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/0074da31-79a6-4aeb-8e42-66dae0a601a8/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/0074da31-79a6-4aeb-8e42-66dae0a601a8/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/0074da31-79a6-4aeb-8e42-66dae0a601a8/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/3da316fb-e7dc-49c6-a1ee-615f73003d57/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/3da316fb-e7dc-49c6-a1ee-615f73003d57/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/3da316fb-e7dc-49c6-a1ee-615f73003d57/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/8d6dac97-2fd0-4021-8046-107ad64008c2/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/8d6dac97-2fd0-4021-8046-107ad64008c2/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/8d6dac97-2fd0-4021-8046-107ad64008c2/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/65460ea0-0d6f-4625-84b5-ba323e873d1a/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/65460ea0-0d6f-4625-84b5-ba323e873d1a/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/65460ea0-0d6f-4625-84b5-ba323e873d1a/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/62a65cdf-29f1-4e2c-9988-5fe3dba70863/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/62a65cdf-29f1-4e2c-9988-5fe3dba70863/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/62a65cdf-29f1-4e2c-9988-5fe3dba70863/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/cbf50cfc-6521-4603-aa21-c2ce71efa747/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/cbf50cfc-6521-4603-aa21-c2ce71efa747/text&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/cbf50cfc-6521-4603-aa21-c2ce71efa747/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1cecc7c2-eb1e-43b2-8739-cd7869429041/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1cecc7c2-eb1e-43b2-8739-cd7869429041/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1cecc7c2-eb1e-43b2-8739-cd7869429041/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/45e44b55-c251-403f-b617-35a7ee804502/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/45e44b55-c251-403f-b617-35a7ee804502/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/45e44b55-c251-403f-b617-35a7ee804502/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/4c4c9424-d94a-4359-9dad-8d40c9901752/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/4c4c9424-d94a-4359-9dad-8d40c9901752/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/4c4c9424-d94a-4359-9dad-8d40c9901752/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/a134241c-9117-40c4-932c-fce9bb7b2f30/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/a134241c-9117-40c4-932c-fce9bb7b2f30/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/a134241c-9117-40c4-932c-fce9bb7b2f30/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/0404f912-3707-477c-b90f-9927d06f56ac/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/0404f912-3707-477c-b90f-9927d06f56ac/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/0404f912-3707-477c-b90f-9927d06f56ac/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/9d097511-fb74-4648-aa8f-a621a9f6b553/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/9d097511-fb74-4648-aa8f-a621a9f6b553/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/9d097511-fb74-4648-aa8f-a621a9f6b553/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/377bd22d-07b8-47c8-bde6-8978c42eccb6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/377bd22d-07b8-47c8-bde6-8978c42eccb6/text&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/377bd22d-07b8-47c8-bde6-8978c42eccb6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/8e19aed3-eeda-4248-842d-db4205b27c8f/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/8e19aed3-eeda-4248-842d-db4205b27c8f/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/8e19aed3-eeda-4248-842d-db4205b27c8f/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/47656e88-8099-48f8-8e01-c0f923bb866a/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/47656e88-8099-48f8-8e01-c0f923bb866a/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/47656e88-8099-48f8-8e01-c0f923bb866a/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/67ec38d5-ca66-4a3e-bde6-38c3fa1aa73b/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/67ec38d5-ca66-4a3e-bde6-38c3fa1aa73b/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/67ec38d5-ca66-4a3e-bde6-38c3fa1aa73b/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/67ec38d5-ca66-4a3e-bde6-38c3fa1aa73b/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/67ec38d5-ca66-4a3e-bde6-38c3fa1aa73b/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/67ec38d5-ca66-4a3e-bde6-38c3fa1aa73b/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/b9815a68-1d08-4e4d-8c7d-d113157e10a3/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/b9815a68-1d08-4e4d-8c7d-d113157e10a3/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/b9815a68-1d08-4e4d-8c7d-d113157e10a3/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/73814a07-c9fe-406f-b19d-f03eef2d889a/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/73814a07-c9fe-406f-b19d-f03eef2d889a/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/73814a07-c9fe-406f-b19d-f03eef2d889a/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/73814a07-c9fe-406f-b19d-f03eef2d889a/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/73814a07-c9fe-406f-b19d-f03eef2d889a/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/73814a07-c9fe-406f-b19d-f03eef2d889a/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/d5b77939-ec30-4c68-a433-a6ba817c4baf/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/d5b77939-ec30-4c68-a433-a6ba817c4baf/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/d5b77939-ec30-4c68-a433-a6ba817c4baf/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/6f0dd44e-e897-4bca-aed5-97f67b0661da/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/6f0dd44e-e897-4bca-aed5-97f67b0661da/text&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/6f0dd44e-e897-4bca-aed5-97f67b0661da/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/6f0dd44e-e897-4bca-aed5-97f67b0661da/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/6f0dd44e-e897-4bca-aed5-97f67b0661da/click&apos;
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/6f0dd44e-e897-4bca-aed5-97f67b0661da/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/27ca5bd6-b2f5-4445-a379-d0dcb3d69776/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/27ca5bd6-b2f5-4445-a379-d0dcb3d69776/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/27ca5bd6-b2f5-4445-a379-d0dcb3d69776/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/4bffe08a-ef35-475d-b794-f6aadba0f102/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/4bffe08a-ef35-475d-b794-f6aadba0f102/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/4bffe08a-ef35-475d-b794-f6aadba0f102/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/aa03c860-3c7d-424a-9393-391e8db46ed8/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/aa03c860-3c7d-424a-9393-391e8db46ed8/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/aa03c860-3c7d-424a-9393-391e8db46ed8/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/67ab0dae-a85f-49fb-927d-07d5ed867f3f/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/67ab0dae-a85f-49fb-927d-07d5ed867f3f/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/67ab0dae-a85f-49fb-927d-07d5ed867f3f/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1510d748-020c-451f-92c6-1c0d145baf6c/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1510d748-020c-451f-92c6-1c0d145baf6c/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1510d748-020c-451f-92c6-1c0d145baf6c/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/4b9e9b5f-7f09-4a2c-a488-487473a53706/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/4b9e9b5f-7f09-4a2c-a488-487473a53706/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/4b9e9b5f-7f09-4a2c-a488-487473a53706/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/e152ad95-c057-4f03-bc7d-f8b4465f12a5/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/e152ad95-c057-4f03-bc7d-f8b4465f12a5/text&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/e152ad95-c057-4f03-bc7d-f8b4465f12a5/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/3c900569-1e3a-444f-8cc6-03878f13a039/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/3c900569-1e3a-444f-8cc6-03878f13a039/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/3c900569-1e3a-444f-8cc6-03878f13a039/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/b74c4200-f67c-4ba6-a38f-6097def387e8/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/b74c4200-f67c-4ba6-a38f-6097def387e8/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/b74c4200-f67c-4ba6-a38f-6097def387e8/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/4466616c-ddd4-4b9f-967b-f5c69346b51a/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/4466616c-ddd4-4b9f-967b-f5c69346b51a/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/4466616c-ddd4-4b9f-967b-f5c69346b51a/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/60b1826f-d87b-4ce7-9b13-3ae0446aaba0/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/60b1826f-d87b-4ce7-9b13-3ae0446aaba0/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/60b1826f-d87b-4ce7-9b13-3ae0446aaba0/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/564ed003-7618-411b-b09d-11fb51dcbfeb/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/564ed003-7618-411b-b09d-11fb51dcbfeb/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/564ed003-7618-411b-b09d-11fb51dcbfeb/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2392
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;header-wrapper container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/cbf1076d-aac5-49de-89a0-0c0edbaa0974/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/cbf1076d-aac5-49de-89a0-0c0edbaa0974/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/cbf1076d-aac5-49de-89a0-0c0edbaa0974/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/16de39bd-f1d5-43b5-bf5c-0408c33fda3e/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/16de39bd-f1d5-43b5-bf5c-0408c33fda3e/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/16de39bd-f1d5-43b5-bf5c-0408c33fda3e/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element/1a0cde60-efb8-452b-a088-da2e4c8019e6/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 2436
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+element click intercepted: Element &lt;span class=&quot;is--total-trip&quot;&gt;...&lt;/span&gt; is not clickable at point (738, 5). Other element would receive the click: &lt;div class=&quot;modal-lightsout&quot; style=&quot;height: 5744px; opacity: 0.4; display: block;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;Tejas-MacBook-Air.local&apos;, ip: &apos;2600:8804:a00:97a:0:0:0:a6d0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/g0/tygb1wf168b...}, goog:chromeOptions: {debuggerAddress: localhost:50522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5412fed8917fd37f7ac1865e3edf7318
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;GET&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element/70eb324e-daff-4bb5-a4a4-a88c664a91eb/text&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for GET &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element/70eb324e-daff-4bb5-a4a4-a88c664a91eb/text&apos;
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/5412fed8917fd37f7ac1865e3edf7318/element/70eb324e-daff-4bb5-a4a4-a88c664a91eb/text HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Cache-Control: no-cache
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+String index out of range: 2
+[DEBUG] Using pooled Channel &apos;[id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086]&apos; for &apos;POST&apos; to &apos;http://localhost:11086/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Using open Channel [id: 0x396c3af1, L:/127.0.0.1:50518 - R:localhost/127.0.0.1:11086] for POST &apos;/session/5412fed8917fd37f7ac1865e3edf7318/element&apos;
+[DEBUG] Entry count for : http://localhost:50522 : 1
+[DEBUG] Entry count for : http://localhost:17777 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/5412fed8917fd37f7ac1865e3edf7318/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-5 (java mac)
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+host: localhost:11086
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+</system-out>
+  </testcase>
 </testsuite>

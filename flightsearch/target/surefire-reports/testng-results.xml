@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="2" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="33135" started-at="2020-07-26T02:29:32Z" finished-at="2020-07-26T02:30:05Z">
+  <suite name="Command line suite" duration-ms="50032" started-at="2020-08-07T04:59:22Z" finished-at="2020-08-07T05:00:12Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Features.TestRun@5702b3b1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.cucumber.runtest.TestRun@192b07fd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Command line test" duration-ms="33135" started-at="2020-07-26T02:29:32Z" finished-at="2020-07-26T02:30:05Z">
+    <test name="Command line test" duration-ms="50032" started-at="2020-08-07T04:59:22Z" finished-at="2020-08-07T05:00:12Z">
       <class name="Features.TestRun">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Features.TestRun@5702b3b1]" name="setUpClass" is-config="true" duration-ms="368" started-at="2020-07-25T21:29:32Z" finished-at="2020-07-25T21:29:33Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Features.TestRun@5702b3b1]" name="setUpClass" is-config="true" duration-ms="414" started-at="2020-08-06T23:59:22Z" finished-at="2020-08-06T23:59:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Features.TestRun@5702b3b1]" name="runScenario" duration-ms="32734" started-at="2020-07-25T21:29:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-25T21:30:05Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Features.TestRun@5702b3b1]" name="runScenario" duration-ms="49571" started-at="2020-08-06T23:59:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-07T00:00:12Z">
           <params>
             <param index="0">
               <value>
@@ -28,10 +28,37 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using xpath=//div[@class='col-xs-12 contract__trip trip-block']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'Tejas-MacBook-Air.local', ip: '2600:8804:a00:97a:0:0:0:a6d0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class='col-xs-12 contract__trip trip-block']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'Tejas-MacBook-Air.local', ip: '2600:8804:a00:97a:0:0:0:a6d0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)
+	at org.cucumber.tests.FlightSearchPage.verifyItinerary(FlightSearchPage.java:110)
+	at Features.Steps.page_should_display_cheapest_and_fastest_itinerary(Steps.java:93)
+	at ✽.Page should display cheapest and fastest itinerary(classpath:Features/scenarios.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Features.TestRun@5702b3b1]" name="runScenario" duration-ms="25987" started-at="2020-07-25T21:29:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-25T21:29:59Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Features.TestRun@5702b3b1]" name="runScenario" duration-ms="21589" started-at="2020-08-06T23:59:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-06T23:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -44,20 +71,65 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'Tejas-MacBook-Air.local', ip: '2600:8804:a00:97a:0:0:0:a6d0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 13.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19G73, safari:platformVersion: 10.15.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: BFCC4697-B8A2-46F1-8446-88BFEB702957
+*** Element info: {Using=class name, value=currency}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: 
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'Tejas-MacBook-Air.local', ip: '2600:8804:a00:97a:0:0:0:a6d0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 13.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19G73, safari:platformVersion: 10.15.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: BFCC4697-B8A2-46F1-8446-88BFEB702957
+*** Element info: {Using=class name, value=currency}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:431)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+	at ✽.Page should display fares(classpath:Features/scenarios.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Features.TestRun@5702b3b1]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-07-25T21:30:05Z" finished-at="2020-07-25T21:30:05Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Features.TestRun@5702b3b1]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2020-08-07T00:00:12Z" finished-at="2020-08-07T00:00:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Features.TestRun -->
       <class name="org.cucumber.runtest.TestRun">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.cucumber.runtest.TestRun@192b07fd]" name="setUpClass" is-config="true" duration-ms="7" started-at="2020-07-25T21:30:05Z" finished-at="2020-07-25T21:30:05Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.cucumber.runtest.TestRun@192b07fd]" name="setUpClass" is-config="true" duration-ms="7" started-at="2020-08-07T00:00:12Z" finished-at="2020-08-07T00:00:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.cucumber.runtest.TestRun@192b07fd]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-07-25T21:30:05Z" finished-at="2020-07-25T21:30:05Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.cucumber.runtest.TestRun@192b07fd]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-08-07T00:00:12Z" finished-at="2020-08-07T00:00:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
